@@ -1,0 +1,29 @@
+.logo{
+	padding-top: 25px;
+	padding-right: 85px;
+	padding-bottom: 25px;
+
+	color: $secondary-text-color;
+
+	font-family: $font-logo;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+
+    text-decoration: none;
+    
+    &:hover,
+    &:focus{
+        cursor: auto;
+    }
+
+    &-specific{
+        color: $accent-color;
+
+        &.white{
+            color: $tretiary-text-color;
+        }
+    }
+}
+

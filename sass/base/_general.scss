@@ -1,0 +1,60 @@
+body {
+	color: $primary-text-color;
+	background-color: $primary-bg-color;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 94px;
+	padding-right: 15px;
+	padding-bottom: 94px;
+	padding-left: 15px;
+}
+
+.flexbox {
+	display: flex;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.main-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+
+	color: $title-text-color;
+
+	font-family: $font-general;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+}
+
+.secondary-title {
+	margin-top: 30px;
+	margin-bottom: 0;
+}
