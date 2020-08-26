@@ -17,13 +17,13 @@
     &:focus{
         cursor: auto;
     }
+}
 
-    &-specific{
-        color: $accent-color;
+.logo-specific{
+    color: $accent-color;
 
-        &.white{
-            color: $tretiary-text-color;
-        }
+    &.white{
+        color: $tretiary-text-color;
     }
 }
 

@@ -1,9 +1,9 @@
 @import "./utils/variables";
 @import "./base/normalize";
 @import "./base/general";
-@import "./base/social-networks";
+@import "./components/social-networks";
 @import "./components/logo";
-@import "./components/header";
-@import "./base/button";
-@import "./components/portfolio";
-@import "./components/footer";
+@import "./layout/header";
+@import "./components/button";
+@import "./layout/portfolio";
+@import "./layout/footer";
