@@ -405,6 +405,32 @@ img {
   color: #ffffff;
 }
 
+.button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 10px 32px;
+  min-width: 200px;
+  max-height: 50px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  background-color: #2196f3;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.button:hover, .button:focus {
+  cursor: pointer;
+}
+
 header {
   border-bottom: 1px solid #ECECEC;
 }
@@ -519,32 +545,6 @@ header .container {
 
 .contacts-item .link:hover .contacts-item-icon {
   fill: #2196f3;
-}
-
-.button {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 10px 32px;
-  min-width: 200px;
-  max-height: 50px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #ffffff;
-  background-color: #2196f3;
-  text-decoration: none;
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-}
-
-.button:hover, .button:focus {
-  cursor: pointer;
 }
 
 .button-list button {
